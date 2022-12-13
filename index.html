@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie App</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="bootstrap.css"/>
+        
+    </head>
+ <body>
+    <header class="navbar bg-danger" id ="nav"> 
+      <p>FLATDANGO</p>
+
+    </header> 
+<div class="container-fluid bg-success" id="content">
+  <div class="row md-12 bg-primary" > 
+    <div class="col-4" id="available"> 
+      <h4>MOVIE LIST</h4>
+
+      <div id="movie-titles">
+
+
+      </div>
+
+      <div id="menu">
+      </div>
+    </div>
+    <div id="poster" class="col-5 " >
+      <h3  class=" text-md-center">MOVIE POSTER
+        <img id="image" src="gettyimages-1244034031-1024x1024.jpg" class="rounded mx-auto d-block" alt="..."/>
+      </h3>       
+    </div>
+    <div class="col-3" id="description">
+      <span>MOVIE DESCRIPTION</span>
+      <ul id="description">
+        <li>showtime</li>
+        <li>capacity</li>
+        <li>ticket_sold</li>
+        <li>runtime</li>
+        <li>id</li>
+
+
+        
+      </ul>
+    </div>
+  </div>
+  </div>
+  <script src="index.js" ></script>
+  <script src="bootstrap.js" ></script>
+    </body>
 </html>

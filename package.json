@@ -1,0 +1,26 @@
+{
+  "name": "movie-challenge",
+  "version": "1.0.0",
+  "description": "film",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evalyne306/movie-challenge.git"
+  },
+  "keywords": [
+    "javascript",
+    "bootstrap",
+    "css",
+    "html"
+  ],
+  "author": "Evalyne Wanjiku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evalyne306/movie-challenge/issues"
+  },
+  "homepage": "https://github.com/Evalyne306/movie-challenge#readme"
+}
