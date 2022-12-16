@@ -16,7 +16,7 @@ While inetracting with this program you will be able to ;
 ## Getting started directly using link
 if you want to interact with the program directly on the bowser, use the link below;
 
-*
+        https://monumental-beijinho-8b6256.netlify.app/
 
 ## Getting Started using terminal
 -You will need a computer that runs on the following;
@@ -32,17 +32,17 @@ Alternative One
 -Open the folder you want to clone to
 -go to this repo using this link;
 
-https://github.com/Evalyne306/movie-challenge
+        https://github.com/Evalyne306/movie-challenge/tree/master
 - click the code button and copy the link, ensure SSH is selected before copying
 -once you have copied go back to your terminal and clone the repo using the followng;
 
-git@github.com:Evalyne306/movie-challenge.git
+        git@github.com:Evalyne306/movie-challenge.git
 
 -Be patient as it creates a copy on your local machine for you
 -you can use command "ls" to check the created repo folder
 -Change directory to the repo folder;
 
-cd code-challenge-second
+cd movie-challenge
 
 
 -(Optional) Open it in Visual Studio Code
@@ -60,16 +60,10 @@ from there you can interact with the programs, either the grade generator or the
 Click on that button to fork the repo to your own account.
 -Take on the process in Alternative one above.
 -Remember to replace your username when cloning
-git clone http://github.com/your-username-here/l1-js-dom.git
+        git clone http://github.com/your-username-here/l1-js-dom.git
 -once you have git cloned it is now available to your local machine
--(Optional) Open it in Visual Studio Code
--go to the html files and right click and select ;
 
-Run this command to get the backend started: 
-
-json-server --watch db.json
-
-open with live server
+-open with live server
 from there you can interact with the programs, either the grade generator or the speed detector or the nhif calculator.
 
 
